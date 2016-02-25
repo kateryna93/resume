@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    color: #4d4d4d;
+    background: url("img/bg.png") repeat fixed -25px 0;
+}
+
+
+/*Styles for header*/
+body > header {
+    background: #e67e22;
+    padding: 20px;
+    box-shadow: 0 0 5px -1px #000000;
+}
+
+.cv {
+    width: 410px;
+    margin: 0 auto;
+}
+
+.cv > div {
+    display: inline-block;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 60px;
+    letter-spacing: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+div.circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #ffffff;
+    position: absolute;
+    top:60px;
+}
+
+div.circle.first {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+}
+
+div.circle.second {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+}
+
+
+/*Styles for main_header*/
+main .main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.main_header {
+    width: 600px;
+    margin: 100px auto 0 auto;
+}
+
+.main_header::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.table_info {
+    float: left;
+    vertical-align: middle;
+}
+
+th {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+td {
+    padding-right: 20px;
+}
+
+.cv_img {
+    width: 120px;
+    height: 150px;
+    box-shadow: 0 0 5px -1px #000000;
+    float: right;
+    background: url("img/kateryna.jpg") no-repeat;
+}
+
+
+/*Styles for sections*/
+.block {
+    padding: 5px;
+    border-top: 1px dotted #e67e22;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+
+.block h1 {
+    color: #e67e22;
+    font-weight: 100;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.experience p {
+    font-weight: 600;
+}
+
+.experience span {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.experience ol {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.education span {
+    font-weight: 600;
+}
+
+.quality {
+    text-align: center;
+}
+
+.quality h1 {
+    text-align: left;
+}
+
+.quality > div  {
+    width: 250px;
+    height: 80px;
+    border: 1px solid #e67e22;
+    margin: 20px 20px 20px 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+/*Styles for sections*/
+footer {
+    background: #ffffff;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+footer h1 {
+    text-align: center;
+}
+
+form {
+    margin: 10px auto 40px auto;
+    padding: 30px 30px 30px 20px;
+    width: 400px;
+    height: auto;
+    background: #e67e22;
+    color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px -1px #000000;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.input_positioner {
+    width: 350px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 17px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background: #ffffff;
+    border: none;
+    color: #e67e22;
+}
